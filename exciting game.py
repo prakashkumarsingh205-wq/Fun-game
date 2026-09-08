@@ -1,8 +1,8 @@
 print("Let's have some fun today")
 
+prompt = "Type a letter (A, B, C, O, S, H, D, Z, J, E, F, G, Q, I, K, L) or EXIT: "
 while True:
-    letter = input(
-        "Type a letter (A, B, C, Q, S, H, D, Z, J) or EXIT: ").upper()
+    letter = input(prompt).upper()
 
     if letter == "A":
         print("""
@@ -29,7 +29,7 @@ while True:
      \\___/
     """)
 
-    elif letter == "Q":
+    elif letter == "O":
         print("""
       _____
      /     \\
@@ -89,6 +89,68 @@ while True:
         / |                | \\
        / /|________________|/ \\
               """)
+    elif letter == "E":
+        print("""
+                /
+               / 
+              /______ 
+                    / 
+                   /   
+                  /     
+                    """)
+    elif letter == "F":
+        print("""
+                _____
+             __/_____\\___
+           ◜             \\___     /
+       ↙ ◜                    \\__/  
+      <-(                  ____/  \\
+         ◟                /       \\
+           ◟_____________/  
+               \\_____/ 
+              """)
+    elif letter == "G":
+        print("""
+           __    
+          |
+          |   __ 
+          |__|  |
+             """)
+    elif letter == "Q":
+        print("""
+      _____
+     /     \\
+    |       |
+    |       |
+     \\_____/
+            \\  /
+             \\/  
+             """)
+    elif letter == "I":
+        print("""
+      _____________           
+         |     |
+         |     |
+         |     |
+      ___|_____|___  
+             """)
+    elif letter == "K":
+        print("""
+           |  / 
+           | / 
+           |/  
+           |\\  
+           | \\ 
+           |  \\   
+             """)
+    elif letter == "L":
+        print("""
+                  _↿__ 
+               \ (    )/ 
+               \(  💡  )/
+                (______)
+                  |___|       
+             """)
 
     elif letter == "EXIT":
         print("Exiting...")
